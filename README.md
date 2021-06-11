@@ -52,7 +52,7 @@
 <td>Confusion Matrix</td>
 <td>
 
-![vgg_confmat](./Test_confussion.png)
+![vgg_confmat](Result_images/Test_confussion.png)
 
 </td>
 
@@ -60,7 +60,7 @@
 </table>
 
 - __Localization with Gradient-based Class Activation Maps__
-> ![original](./bw_grad_cam.png)![vgg_cam](./grad_cam.png)
+> ![original](Result_images/bw_grad_cam.png)![vgg_cam](Result_images/grad_cam.png)
 
 ## Conclussions
 ## References
