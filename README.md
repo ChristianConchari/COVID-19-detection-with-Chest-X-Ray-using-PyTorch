@@ -88,7 +88,7 @@ project and may be applied to the training or data augmentationpart. In order to
 <td>Confusion Matrix</td>
 <td>
 
-![vgg_confmat](./Test_confussion.png)
+![vgg_confmat](./Result_images/Test_confussion.png)
 
 </td>
 
