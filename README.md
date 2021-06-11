@@ -1,3 +1,26 @@
+# COVID-19 detection with Chest-X-Ray using PyTorch and Flutter implementation
+
+> Universidad Católica Boliviana "San Pablo" Regional La Paz Av 14 de Septiembre Nº 4807 esquina, La Paz - Bolivia
+
+---
+**Engineers developer team**  
+---
+<div style = "fonr-size:15px">
+Conchari Cabrera, Christian
+</div>
+<div style = "fonr-size:15px">
+Jallaza Maldonado, Fabricio Alejandro
+</div>
+<div style = "fonr-size:15px">
+Quenta Alvarez, Hammed Emmerson
+</div>
+<div style = "fonr-size:15px">
+Santos Orellana, Eliot
+</div>
+<br>
+
+> Mechatronics Engineering La Paz, Bolivia
+
 ## Introduction
 Nowadays,  we  are  living  in  the  COVID-19  pandemic,  atypical  COVID-19  infection  case  will  damage  the  walls  andlinings  of  the  air  sacs  in  human  lungs.  As  the  human  bodytries to fight it, the lungs become more inflamed and fill withfluid.  In many cases, it is possible to perform imaging teststo support the diagnosis, determine the severity of the diseaseand  assess  therapeutic  response.  In  this  way,  chest  X-ray  isusually  the  first  imaging  test  in  patients  with  suspected  orconfirmed  COVID-19  because  of  its  usefulness,  availabilityand low cost. As visual artificial learners we will generate a tool to support health professionals in the  diagnosis  of  COVID-19  employing  chest  X-ray  imaging tests.
 There must be a high aplicability in the project and an app where it is connnected to the trained neural network and where a user can upload a X-Ray image of the lungs and get a prediction will be implemented. This will be developed in a Flutter framwork on the Dart programming language.
