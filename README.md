@@ -24,10 +24,20 @@ Image from dataset before per-forming contrast stretching and Image  from  datas
 ### Transfer Learning and Model Training
 Once  the  data  acquisition  and  preprocessing  stage  wascarried out, several transformations were applied to the dataset,such  as  a  Resize,  a  RandomHorizontalFlip  and  a  normaliza-tion. This was done using Pytorch dependencies.Subsequently,   based   on   a   transfer   learning   model,   aResNet18  neural  network  was  implemented  starting  from  apre-trained model within Pytorch dependencies. By evaluatingthe  predictions  made  by  the  model  during  the  training,  thisprocess was continued until an accuracy of __0.95_ was obtained.
 
+The training process was made under cpu and gpu with similar results but faster training process on the gpu side. It can be seen at:
+
+[1. cpu_training.ipynb](https://github.com/ChristianConchari/COVID-19-detection-with-Chest-X-Ray-using-PyTorch/blob/master/1.%20cpu_training.ipynb)
+
+[1. gpu_training.ipynb](https://github.com/ChristianConchari/COVID-19-detection-with-Chest-X-Ray-using-PyTorch/blob/master/1.%20gpu_training.ipynb)
+
 ### Model Compiling for Mobile Implementation
 Once  we  have  trained  the  model,  our  next  step  will  be  toobtain a TorchScript capable of being loaded and used to makeinferences,  either  in  a  desktop  Python  environment  or  in  amobile  environment  with  Dart  and  the  Flutter  framework  asis  being  done  in  the  present  project.
 
 ## Results
+The results file can be seen at: 
+
+[2. evaluation_metrics.ipynb](https://github.com/ChristianConchari/COVID-19-detection-with-Chest-X-Ray-using-PyTorch/blob/master/2.%20evaluation_metrics.ipynb)
+
 In  order  to  evaluate  the  project  some  metrics  must  beobtained,  these  will  be  the  most  important  feedback  to  the
 project and may be applied to the training or data augmentationpart. In order to obtain the required metrics a data extractionmust be made, the model on __.pt__ and __.pth__ format will be loadedand the important characteristics will be extracted from it. Therelevant metrics for a ResNet-18 neural network are:
 <table>
