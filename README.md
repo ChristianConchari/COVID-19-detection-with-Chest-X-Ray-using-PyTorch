@@ -40,13 +40,11 @@ For the implementation of this project, the following 4-class dataset was used. 
 Subsequently,   a   contrast   stretch   was   performed   for   allimages  before  training  the  model,  this  in  order  to  obtain  abetter visualization of features in images with low contrast.
 <p align="center">
   <img  src="https://github.com/ChristianConchari/COVID-19-detection-with-Chest-X-Ray-using-PyTorch/blob/master/Result_images/COVID-23.png">
-  
-  First
+  (a)
   <img src="https://github.com/ChristianConchari/COVID-19-detection-with-Chest-X-Ray-using-PyTorch/blob/master/Result_images/COVID-23-1.png">
-  
-  Second
+  (b)
 </p>
-Image from dataset before per-forming contrast stretching and Image  from  dataset  after  per-forming contrast stretching
+Image from dataset (a) before, (b) after performing contrast stretching.
 
 ### Transfer Learning and Model Training
 Once  the  data  acquisition  and  preprocessing  stage  wascarried out, several transformations were applied to the dataset,such  as  a  Resize,  a  RandomHorizontalFlip  and  a  normaliza-tion. This was done using Pytorch dependencies.Subsequently,   based   on   a   transfer   learning   model,   aResNet18  neural  network  was  implemented  starting  from  apre-trained model within Pytorch dependencies. By evaluatingthe  predictions  made  by  the  model  during  the  training,  thisprocess was continued until an accuracy of __0.95_ was obtained.
