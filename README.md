@@ -151,6 +151,9 @@ This figure shows a gradient prediction of the model
 ## Conclussions
 In this project we have presented an implementation of a Convolutional Neural Network (CNN) model generated with Transfer Learning techniques, modifying the pre-trained ResNet18  network to classify chest X-ray images into four classes: normal lungs,  lungs infected with COVID-19, with viral pneumonia and pulmonary opacity. The current scenery in which  we find ourselves requires us to contribute through new solutions, in our case applying artificial intelligence to support the medical diagnosis of respiratory diseases such as COVID-19.
 
+## Presentation Video
+[![COVID-19 DETECTION WITH RESNET18, PYTORCH & FLUTTER](https://www.youtube.com/watch?v=uAe7GDQCOfk)](https://www.youtube.com/watch?v=uAe7GDQCOfk)
+
 ## References
 <a id="1">[1]</a> 
 Shuzhan Fan (Nov 2,2018), M. Dietz, "Understand Deep Residual Networks — a simple, modular learning framework that has redefined…", Medium, 2021. [Online]. Available: (https://medium.com/@waya.ai/deep-residual-learning-9610bb62c355). [Accessed: 11- Jun- 2021]
