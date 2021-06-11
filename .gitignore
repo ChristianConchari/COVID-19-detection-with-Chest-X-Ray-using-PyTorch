@@ -128,5 +128,7 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# Images
+# images
+
+*.png
 COVID-19_Radiography_Dataset/
