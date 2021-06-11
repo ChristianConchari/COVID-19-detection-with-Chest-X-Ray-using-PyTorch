@@ -44,7 +44,7 @@ Subsequently, a contrast stretch was performed for all images before training th
   (b)
   <img src="https://github.com/ChristianConchari/COVID-19-detection-with-Chest-X-Ray-using-PyTorch/blob/master/Result_images/COVID-23-1.png">
 </p>
-Image from dataset (a) before, (b) after performing contrast stretching.
+Images from dataset (a) before, (b) after performing contrast stretching.
 
 ### Transfer Learning and Model Training
 Once the data acquisition and preprocessing stage was carried out, several transformations were applied to the dataset, such as a Resize, a RandomHorizontalFlip and a  normalization. This was done using Pytorch dependencies. Subsequently, based on a transfer learning model, a ResNet18 neural network was implemented starting from a pre-trained model within Pytorch dependencies. By evaluating the predictions made by the model during the training, this process was continued until an accuracy of _0.95_ was obtained.
@@ -56,14 +56,14 @@ The training process was made under cpu and gpu with similar results but faster 
 [1. gpu_training.ipynb](https://github.com/ChristianConchari/COVID-19-detection-with-Chest-X-Ray-using-PyTorch/blob/master/1.%20gpu_training.ipynb)
 
 ### Model Compiling for Mobile Implementation
-Once we have trained the  model, our next step will be toobtain a TorchScript capable of being loaded and used to makeinferences, either in a desktop Python environment or in a mobile environment with Dart and Flutter frameworks as is being done in the present project.
+Once we have trained the  model, our next step will be toobtain a Torch Script capable of being loaded and used to makeinferences, either in a desktop Python environment or in a mobile environment with Dart and Flutter frameworks as is being done in the present project.
 
 ## Results
 The results file can be seen at: 
 
 [2. evaluation_metrics.ipynb](https://github.com/ChristianConchari/COVID-19-detection-with-Chest-X-Ray-using-PyTorch/blob/master/2.%20evaluation_metrics.ipynb)
 
-In order to evaluate the project some  metrics  must  be obtained, these will be the most important feedback to the project and may be applied to the training or data augmentationpart. In order to obtain the required metrics a data extractionmust be made, the model on __.pt__ and __.pth__ format will be loaded and the important characteristics will be extracted from it. The relevant metrics for a ResNet-18 neural network are:
+In order to evaluate the project some  metrics  must  be obtained, these will be the most important feedback to the project and may be applied to the training or data augmentation part. In order to obtain the required metrics a data extraction must be made, the model on __.pt__ and __.pth__ format will be loaded and the important characteristics will be extracted from it. The relevant metrics for a ResNet-18 neural network are:
 <table>
 <tr>
 <th></th>
