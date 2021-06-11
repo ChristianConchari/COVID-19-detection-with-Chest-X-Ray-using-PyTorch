@@ -17,15 +17,45 @@
 |COVID-19|
 
 </td>
-<td>
+<td style="text-align: center;">
 
-|Precision|Recall|F1-Score|Support|
-|-:|-:|-:|-:|
-|0.91|0.77|0.83|26|
-|0.89|0.1.00|0.94|33|
-|1.00|0.78|0.88|36|
-|0.70|0.92|0.79|25|
-            
+<table style="margin-left: auto; margin-right: auto;">
+<thead>
+  <tr>
+    <th class="tg-0lax">Precision</th>
+    <th class="tg-0lax">Recall</th>
+    <th class="tg-0lax">F1-Score</th>
+    <th class="tg-0lax">Support</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax">0.91</td>
+    <td class="tg-0lax">0.77</td>
+    <td class="tg-0lax">0.83</td>
+    <td class="tg-0lax">26</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">0.89</td>
+    <td class="tg-0lax">0.1.00</td>
+    <td class="tg-0lax">0.94</td>
+    <td class="tg-0lax">33</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">1.00</td>
+    <td class="tg-0lax">0.78</td>
+    <td class="tg-0lax">0.88</td>
+    <td class="tg-0lax">36</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">0.70</td>
+    <td class="tg-0lax">0.92</td>
+    <td class="tg-0lax">0.79</td>
+    <td class="tg-0lax">25</td>
+  </tr>
+</tbody>
+</table>
+
 </td>
 
 </tr>
