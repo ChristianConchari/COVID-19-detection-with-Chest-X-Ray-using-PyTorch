@@ -132,3 +132,4 @@ dmypy.json
 
 *.png
 COVID-19_Radiography_Dataset/
+*.zip
