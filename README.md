@@ -41,10 +41,8 @@ Subsequently,   a   contrast   stretch   was   performed   for   allimages  befo
 <p align="center">
   <img  src="https://github.com/ChristianConchari/COVID-19-detection-with-Chest-X-Ray-using-PyTorch/blob/master/Result_images/COVID-23.png">
   
-  
   First
   <img src="https://github.com/ChristianConchari/COVID-19-detection-with-Chest-X-Ray-using-PyTorch/blob/master/Result_images/COVID-23-1.png">
-  
   
   Second
 </p>
