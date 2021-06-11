@@ -39,10 +39,10 @@ For the implementation of this project, the following 4-class dataset was used. 
 
 Subsequently,   a   contrast   stretch   was   performed   for   allimages  before  training  the  model,  this  in  order  to  obtain  abetter visualization of features in images with low contrast.
 <p align="center">
-  <img  src="https://github.com/ChristianConchari/COVID-19-detection-with-Chest-X-Ray-using-PyTorch/blob/master/Result_images/COVID-23.png">
   (a)
-  <img src="https://github.com/ChristianConchari/COVID-19-detection-with-Chest-X-Ray-using-PyTorch/blob/master/Result_images/COVID-23-1.png">
+  <img  src="https://github.com/ChristianConchari/COVID-19-detection-with-Chest-X-Ray-using-PyTorch/blob/master/Result_images/COVID-23.png">
   (b)
+  <img src="https://github.com/ChristianConchari/COVID-19-detection-with-Chest-X-Ray-using-PyTorch/blob/master/Result_images/COVID-23-1.png">
 </p>
 Image from dataset (a) before, (b) after performing contrast stretching.
 
