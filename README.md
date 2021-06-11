@@ -1,21 +1,21 @@
 # COVID-19 detection with Chest-X-Ray using PyTorch and Flutter implementation
 
-> Universidad Católica Boliviana "San Pablo" Regional La Paz Av 14 de Septiembre Nº 4807 esquina, La Paz - Bolivia
+> Universidad Católica Boliviana "San Pablo" Regional La Paz. Av 14 de Septiembre Nº 4807 esquina calle 2 de Obrajes, La Paz - Bolivia
 
 ---
 **Engineers developer team**  
 ---
 <div style = "fonr-size:15px">
-Conchari Cabrera, Christian
+Conchari Cabrera, Christian Ricardo
 </div>
 <div style = "fonr-size:15px">
 Jallaza Maldonado, Fabricio Alejandro
 </div>
 <div style = "fonr-size:15px">
-Quenta Alvarez, Hammed Emmerson
+Quenta Alvarez, Hamed Emmerson
 </div>
 <div style = "fonr-size:15px">
-Santos Orellana, Eliot
+Santos Orellana, Eliot Rubén
 </div>
 <br>
 
@@ -31,7 +31,7 @@ In order to setup a neural network adaptable to this project the Resnet networks
 ## Data Acquisitiion and Pre-procesing
 The dataset was obtained from [Kaggle](https://www.kaggle.com/tawsifurrahman/covid19-radiography-database).
 
-For the implementation of this project, the following 4-classdataset was used. A test set with 30 images of each classwas  set  aside,  in  addition  to  a  train  set  with  21045  imagesdistributed as follows:
+For the implementation of this project, the following 4-class dataset was used. A test set with 30 images of each class was  set  aside,  in  addition  to  a  train  set  with  21045  images distributed as follows:
 <p align="center">
   <img  src="https://github.com/ChristianConchari/COVID-19-detection-with-Chest-X-Ray-using-PyTorch/blob/master/Result_images/distribution.png">
   
@@ -40,7 +40,9 @@ For the implementation of this project, the following 4-classdataset was used. A
 Subsequently,   a   contrast   stretch   was   performed   for   allimages  before  training  the  model,  this  in  order  to  obtain  abetter visualization of features in images with low contrast.
 <p align="center">
   <img  src="https://github.com/ChristianConchari/COVID-19-detection-with-Chest-X-Ray-using-PyTorch/blob/master/Result_images/COVID-23.png">
+  First
   <img src="https://github.com/ChristianConchari/COVID-19-detection-with-Chest-X-Ray-using-PyTorch/blob/master/Result_images/COVID-23-1.png">
+  Second
 </p>
 Image from dataset before per-forming contrast stretching and Image  from  dataset  after  per-forming contrast stretching
 
@@ -169,3 +171,9 @@ He, K., Zhang, X., Ren, S., \& Sun, J. (2016). Deep residual learning for image 
 
 <a id="6">[6]</a> 
 M. E. H. Chowdhury et al., "Can AI Help in Screening Viral and COVID-19 Pneumonia?," in IEEE Access, vol. 8, pp. 132665-132676, 2020, doi: 10.1109/ACCESS.2020.3010287.
+
+<a id="7">[7]</a> 
+Rahman, A. Khandakar, Y. Qiblawey, A. Tahir, S. Kiranyaz, S. B. Abul Kashem, M.T. Islam, S. Al Maadeed, S. M. Zughaier, M. S. Khan, and M. E. Chowdhury, “Exploring the effect of image enhancement techniques on covid-19 detection using chest X-ray images, ”Computers in Biology and Medicine, vol. 132, p. 104319, 2021. [Online]. Available: https://www.sciencedirect.com/science/article/pii/S001048252100113X
+
+<a id="8">[8]</a> 
+"torch.jit.script — PyTorch 1.8.1 documentation", Pytorch.org, 2021. [Online]. Available: \url{https://pytorch.org/docs/stable/generated/torch.jit.script.html}. [Accessed: 11- Jun-2021]
