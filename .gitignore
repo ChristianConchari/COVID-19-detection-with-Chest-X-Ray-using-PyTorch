@@ -129,7 +129,7 @@ dmypy.json
 .pyre/
 
 # images
-*.png
+#*.png
 COVID-19_Radiography_Dataset/
 *.zip
 
