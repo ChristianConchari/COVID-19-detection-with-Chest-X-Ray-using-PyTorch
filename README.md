@@ -29,7 +29,7 @@ There must be a high aplicability in the project and an app where it is connnect
 In order to setup a neural network adaptable to this project the Resnet networks are the most situable ones. With a 4 class data-set we chose the Resnet18 network. 
 
 ## Data Acquisition and Pre-processing
-The dataset was obtained from [Kaggle](https://www.kaggle.com/tawsifurrahman/covid19-radiography-database).
+The dataset was obtained from [Kaggle](https://www.kaggle.com/tawsifurrahman/covid19-radiography-database). [6][7]
 
 For the implementation of this project, the following 4-class dataset was used. A test set with 30 images of each class was set aside, in addition to a train set with 21045  images distributed as follows:
 <p align="center">
