@@ -14,9 +14,6 @@ Jallaza Maldonado, Fabricio Alejandro
 <div style = "fonr-size:15px">
 Quenta Alvarez, Hamed Emmerson
 </div>
-<div style = "fonr-size:15px">
-Santos Orellana, Eliot Rubén
-</div>
 <br>
 
 > Mechatronics Engineering La Paz, Bolivia
